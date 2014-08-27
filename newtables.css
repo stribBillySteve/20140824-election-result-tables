@@ -1,0 +1,204 @@
+
+.tablebox {
+width: 630px;
+height: 900px;
+background-color: #fff;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+line-height: 150%; 
+margin: 20px;
+}
+
+table.electResult {
+width: 630px;
+border: none; 
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+line-height: 150%;   
+border-collapse: collapse;
+margin-bottom: 15px;
+} 
+
+.electResult td {
+padding: 5px;
+border-bottom: 1px solid #999;
+}
+
+.electResult th {
+font-family: Helvetica, sans-serif;
+text-align: left;
+padding: 2px 10px 2px 10px;
+background-color: #ddd; 
+color: #333;
+border: none;
+}
+
+tr.subHed td {
+padding: 5px 0 5px 10px;
+border: none;
+}
+
+.votes {
+text-align: right;
+}
+
+tr.last td {
+padding: 5px;
+border: none;
+color: #999;
+}
+
+
+table tr td:nth-child(1) {
+background: white;
+width: 30px; 
+text-align: center;
+}
+
+table tr td:nth-child(2) {
+background: white;
+width: 240px;
+}
+
+table tr td:nth-child(3) {
+background: white;
+}
+
+table tr td:nth-child(4) {
+background: white;
+width: 60px; 
+}
+
+table tr td:nth-child(5) {
+background: white;
+text-align: right;
+width: 60px; 
+padding: 5px 10px 5px 0px;
+}
+
+table tr th:nth-child(1) {
+text-transform: uppercase;
+font-weight: bold;
+}
+
+table tr th:nth-child(2) {
+padding: 2px 0 2px 5px;
+color: #666;
+font-weight: normal;
+}
+
+table tr th:nth-child(3) {
+color: #666;
+font-weight: normal;
+text-align: right;
+}
+
+
+
+/*misc bits*/
+
+td.whoWon {
+border-bottom: none;
+padding-left: 5px;
+}
+
+.winner {
+font-weight: bold;
+padding-top: 1px;
+width: 1.4em;
+height: 1.4em;
+background-color: #ec1d24;
+color: #fff;
+border-radius: 4px;
+vertical-align: middle;
+text-align: center;
+margin-left: 5px;
+}
+
+.incumbent {
+font-size: 1.5em;
+font-weight: bold;
+line-height: 70%;
+vertical-align: bottom;
+color: #666;
+}
+
+
+.tableKey {
+width:190px; 
+height:15px;
+margin: 0 10px 0 0
+}
+
+
+
+
+
+
+
+/*bars in the third column*/
+
+.backBar {
+background-color: #eee;
+height: .8em;
+}
+
+.blueBar {
+background-color: #044eaa;
+height: .8em;
+}
+
+.redBar {
+background-color: #ec1d24;
+height: .8em;
+}
+
+.yellowBar {
+background-color: #e5c24b;
+height: .8em;
+}
+
+.grayBar {
+background-color: #aaa;
+height: .8em;
+}
+
+
+
+
+/*topper*/
+
+.raceResultFlag {
+float:left;
+width: 186px;
+height: 40px;
+display: inline-block;
+margin: 0 5px 30px 0;
+}
+
+.raceResultHed {
+width: 630px;
+height: 40px;
+margin: 0 0px 30px 0;
+}
+
+.raceResultHed h2 {
+float:left;
+font-family: "popular", sans-serif;
+font-weight: normal;
+font-style: normal;
+font-size: 1.32em;
+line-height: 150%;
+color:#333;
+text-transform: uppercase;
+vertical-align: middle;
+margin: 6px 0px 15px 0;
+}
+
+.dateTime {
+font-size: 1em;
+color: #666;
+line-height: 130%;
+margin: 9px 0 10px 10px;
+padding: 0;
+}
